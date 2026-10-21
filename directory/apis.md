@@ -208,6 +208,7 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 - [Nansen](https://api.nansen.ai/.well-known/x402) — Nansen's onchain analytics sold per call, including prediction-market screeners and Token God Mode PnL leaderboards, 33 routes at $0.01–$0.05 USDC on Base, Solana and three other chains. Example: `GET /api/v1/prediction-market/event-screener`.
 - [AX1 Token Verdict](https://www.ax1.vc/api/dashboard/q-verdict/resource) — Send a Base token address and get an AI-written verdict with onchain metrics and a shareable card, $0.02 USDC on Base; the operator labels it entertainment, not trading advice. Example: `POST /api/dashboard/q-verdict/resource`.
 - [HyperNatt Terminal](https://hypernatt.com/.well-known/x402) — Liquidation-cluster map and a Li.Fi cross-chain swap quote, $0.001 USDC per call on Base and Solana. Example: `GET /api/m2m/liq-radar`.
+- [KushBitx AgentProof Quick Check](https://kushbitx.com/api/agentproof-quick-check) — Checks that Base reports chain ID 8453 and that the official USDC contract has code, returning PASS or FAIL, for $0.001 USDC per call on Base. Example: `GET /api/agentproof-quick-check`.
 
 ## Finance & FX
 
