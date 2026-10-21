@@ -131,6 +131,8 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 - [Apify](https://agi.apify.com/protocols/x402/prepaid-tokens) — Apify's marketplace of web-scraping and automation Actors, reached by buying prepaid tokens over x402 for $1 USDC on Base or Solana. Example: `GET /protocols/x402/prepaid-tokens`.
 - [Predge](https://api.predge.io/.well-known/x402) — Polymarket data for agents over x402: whale trades of $10,000 or more (15-minute delay), wallet leaderboards, smart-money consensus and ed25519-signed outcome and UMA settlement-risk records, $0.005 to $0.03 USDC per call on Base, Solana, Algorand, Arc or Monad. Example: `GET /v1/whales/latest?limit=10`. ([Docs](https://predge.io/docs)) ([OpenAPI](https://api.predge.io/openapi.json)) ([MCP](https://github.com/predgeAI/whale-data-mcp))
 
+- [x402 Bounty Radar](https://x402-bounty-radar.nikolas-sapalidis.workers.dev/bounties) — Provides a $0.01 USDC Base x402 endpoint advertised for ranked developer-bounty discovery with scam filtering and competition scores.
+
 ## Crypto & DeFi Data
 - [Base Wallet Profile API](https://x402-wallet-profile-api-production.up.railway.app/wallet/0x0000000000000000000000000000000000000001) — Returns a Base wallet activity profile with native balance, transaction counts, token transfers, first/last activity, and a heuristic 0–100 activity score; $0.01 USDC per GET via x402. History fields can be null when upstream data is unavailable.
 
