@@ -293,6 +293,7 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 - [Genesis Verify](https://genesis-verify.vercel.app/verify) — Independent on-chain payment verification: re-derives a token Transfer from a second Base node and returns HOLDS / FALLS / UNCHECKED per asserted field, with a coverage count (asserted vs compared) and the archive fields it could not read named rather than assumed clean; tx-not-found, pending and node-unreachable come back as dated verdicts, not errors. $0.10 USDC on Base via x402 (`POST /verify`), plus a $0.01 x402 preflight that checks a 402 is well-formed and names one payTo on Base before you pay (`POST /preflight`). Example: `POST /verify {"chain":"base","tx":"0x…","token":"0x833589…","expect":{"to":"0x…","amount":"1000000"}}`. ([skill/MCP](https://genesis-verify.vercel.app/skill.md)) ([directory](https://genesis-verify.vercel.app/jobs))
 
 ---
+- [Wren Pre-sign Check](https://wren-presign-check.wrenonbase.workers.dev/check) — Returns block, review or allow for a transaction or EIP-712 message before an agent signs, flagging unlimited approvals, permits, EIP-7702 delegations and injected instructions; 0.01 USDC on Base per call. `POST /check {"tx":{"to":"0x…","data":"0x…"}}`; free examples at `/demo/<name>`.
 
 ## Business Intelligence
 
