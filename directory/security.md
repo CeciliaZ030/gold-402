@@ -54,6 +54,7 @@ Security tools, spending controls, audit resources, and best practices for x402 
 - [MoneySwitch](https://github.com/dongsheng123132/moneyswitch) — Self-hosted x402 payer with per-agent spending keys, budget and host limits, revocation, and human approval for payments above a configured threshold.
 
 ---
+- [wren-guard Pro](https://wren-guard-pro.wrenonbase.workers.dev/sample) — TypeScript/viem guard for agent wallets (capped, simulated sends; approval, permit and EIP-7702 decoding; injection screen) with an 89-scenario drain corpus and a GitHub Action. `GET /sample` returns 5 scenarios for 0.01 USDC on Base; `GET /buy/19` (or 49, 99) returns a 7-day download link to the kit. MIT core: [wren-guard](https://github.com/claudeisgod/wren-guard).
 
 ## Trust & Reputation
 
