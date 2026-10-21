@@ -51,6 +51,7 @@ Security tools, spending controls, audit resources, and best practices for x402 
 
 - [SpendPreflight](https://api.spendpreflight.com/.well-known/x402) — Operated by SpendPreflight, an x402 service providing OFAC/domain screening and allow/hold/block payment preflight with signed receipts for $0.01/$0.02 USDC on Base.
 - [Burnbound](https://www.npmjs.com/package/@burnbound/mcp) — Buyer-side spending controls for x402: per-agent daily caps, per-payment limits, allowed hosts and human approval are checked before the customer's own wallet signs, through the MCP server `@burnbound/mcp`.
+- [MoneySwitch](https://github.com/dongsheng123132/moneyswitch) — Self-hosted x402 payer with per-agent spending keys, budget and host limits, revocation, and human approval for payments above a configured threshold.
 
 ---
 
