@@ -396,6 +396,7 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 - [Softbot Token Check](https://softbot-tokencheck-mainnet.softbot.workers.dev/.well-known/x402) — Returns a safe/caution/avoid verdict with reasons for a Solana token mint, $0.01 USDC per call on Base or Solana via x402. `POST /v1/check {"mint":"<solana mint>"}`
 - [Softbot Email Check](https://softbot-emailcheck-mainnet.softbot.workers.dev/.well-known/x402) — Checks email address and domain deliverability signals without mailbox probing, $0.002 USDC per call on Base or Solana via x402. `POST /v1/email {"email":"a@example.com"}`
 - [GrokBot Base token check](https://grokbot-dashboard.a3migos.workers.dev/api/base/token-check) — Returns a 0-100 pre-trade risk score for a Base ERC-20 from on-chain reads, $0.01 USDC on Base via x402. ([Discovery](https://grokbot-dashboard.a3migos.workers.dev/.well-known/x402) | [OpenAPI](https://grokbot-dashboard.a3migos.workers.dev/openapi.json))
+- [Fresh402](https://fresh402.kirilllabs.workers.dev/v1/check) — On-demand public-web freshness checks, extraction, deterministic Smart Diff and JSON OpenAPI Contract Diff over REST and remote MCP, with free baseline registration and x402 USDC on Base mainnet ($0.005-$0.020 per paid call); [documentation](https://github.com/kirillradchenko96/fresh402) and [discovery](https://fresh402.kirilllabs.workers.dev/.well-known/x402).
 
 ## Blockchain Bridges
 
