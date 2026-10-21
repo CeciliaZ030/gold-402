@@ -7,7 +7,7 @@
 
 # gold-402
 
-> The gold standard for x402 resources. **<!--COUNT:START-->680<!--COUNT:END--> curated entries** — paid endpoints probed for a live 402 before listing, libraries and repos checked for real activity, and the whole shelf re-knocked every night with the result dated. No filler. Entries that stop answering move to [DEPARTURES.md](DEPARTURES.md) and keep getting knocked.
+> The gold standard for x402 resources. **<!--COUNT:START-->688<!--COUNT:END--> curated entries** — paid endpoints probed for a live 402 before listing, libraries and repos checked for real activity, and the whole shelf re-knocked every night with the result dated. No filler. Entries that stop answering move to [DEPARTURES.md](DEPARTURES.md) and keep getting knocked.
 
 [![GitHub stars](https://img.shields.io/github/stars/Haustorium12/gold-402?style=social)](https://github.com/Haustorium12/gold-402)
 [![Last Commit](https://img.shields.io/github/last-commit/Haustorium12/gold-402)](https://github.com/Haustorium12/gold-402/commits/main)
@@ -24,7 +24,7 @@ gold-402 is small on purpose. A person reads every entry before it goes on the l
 
 ## The Directory
 
-The product. <!--COUNT:START-->680<!--COUNT:END--> entries across <!--SHELVES:START-->17<!--SHELVES:END--> shelves, in [`directory/`](directory/).
+The product. <!--COUNT:START-->688<!--COUNT:END--> entries across <!--SHELVES:START-->17<!--SHELVES:END--> shelves, in [`directory/`](directory/).
 
 | Shelf | What's on it |
 |---|---|
@@ -120,7 +120,15 @@ We index that world too, including surfaces no English-language directory carrie
 
 **This week** (Oct 19—25)
 
-_No new listings yet._
+- **[SAVER Verifier](https://api.saververify.com/v2/verify)** — Source-backed factual claim verification with linked evidence for autonomous AI agents, 0.20 USDC per call on Base via x402 v2; the original `/verify` remains supported. Example: `POST /v2/verify {"claim":"The Earth orbits the Sun."}`. ([OpenAPI](https://api.saververify.com/openapi.json)) ([Discovery](https://api.saververify.com/.well-known/x402)) ([GitHub](https://github.com/SAVER-SI/saver-verifier))
+- **[PaperPilot CSV Preflight](https://vm5-openapi-x402.onrender.com/v1/csv-preflight)** — Returns structural checks for up to 32 KB of caller-supplied CSV text via POST at 0.005 native Circle USDC per x402 v2 call on Base mainnet.
+- **[VM3 x402 Public Quote Preflight](https://vm5-openapi-x402.onrender.com/v1/x402-preflight)** — Performs offline structural checks of caller-supplied unsigned x402 v2 payment quotes for $0.01 Circle USDC per GET on Base, with a [free synthetic sample](https://vm5-openapi-x402.onrender.com/v1/x402-sample) and [public source](https://github.com/livastic-vm3-primary-tmp-260920/vm3-x402-quote-preflight).
+- **[OmniProvider](https://pay.omnidev.tech/.well-known/x402)** — Pay-per-call LLM chat and cited-brief API for agents: x402 on Base (fixed price, $0.006 to $0.008 USDC) and MPP on Tempo, with a multi-model catalog at /v1/models. Payment settles after the response is produced.
+- **[Argos Bot CTS Bridge API](https://bridge-api.argosbot.io/v1/lookup?token=0xe86688530c456e099732f953ed7aa7c583026680&chain=arc)** — Provides Arc/Base token mappings, wrapped supply and ownerless Circle CTS bridge verification for 0.005 USDC per lookup through x402 on Base or Arc Gateway.
+- **[Predge](https://api.predge.io/.well-known/x402)** — Polymarket data for agents over x402: whale trades of $10,000 or more (15-minute delay), wallet leaderboards, smart-money consensus and ed25519-signed outcome and UMA settlement-risk records, $0.005 to $0.03 USDC per call on Base, Solana, Algorand, Arc or Monad. Example: `GET /v1/whales/latest?limit=10`. ([Docs](https://predge.io/docs)) ([OpenAPI](https://api.predge.io/openapi.json)) ([MCP](https://github.com/predgeAI/whale-data-mcp))
+- **[Genesis Verify](https://genesis-verify.vercel.app/verify)** — Independent on-chain payment verification: re-derives a token Transfer from a second Base node and returns HOLDS / FALLS / UNCHECKED per asserted field, with a coverage count (asserted vs compared) and the archive fields it could not read named rather than assumed clean; tx-not-found, pending and node-unreachable come back as dated verdicts, not errors. $0.10 USDC on Base via x402 (`POST /verify`), plus a $0.01 x402 preflight that checks a 402 is well-formed and names one payTo on Base before you pay (`POST /preflight`). Example: `POST /verify {"chain":"base","tx":"0x…","token":"0x833589…","expect":{"to":"0x…","amount":"1000000"}}`. ([skill/MCP](https://genesis-verify.vercel.app/skill.md)) ([directory](https://genesis-verify.vercel.app/jobs))
+- **[x402 Bounty Radar](https://x402-bounty-radar.nikolas-sapalidis.workers.dev/bounties)** — Provides a $0.01 USDC Base x402 endpoint advertised for ranked developer-bounty discovery with scam filtering and competition scores.
+- **[Checkpoint402 MCP](https://api.checkpoint402.com/mcp)** — Remote streamable-http MCP server with five paid data tools plus a free `list_services`: `explain_transaction` (any Base or Ethereum tx in plain English), `find_defi_yields` (risk-tiered pools via DefiLlama), `new_token_safety_feed` (new tokens with a safety score), `sec_8k_company_events` (SEC 8-K filings, impact-tagged) and `ofac_sanctions_screen` (name or wallet against the OFAC SDN list). $0.03–$0.10 USDC per call on Base via x402; errors are never charged. Listed in the official MCP Registry as `com.checkpoint402/checkpoint402`. Example tool call: `explain_transaction {"hash":"0xcbb626797fd53a67c9342c1541bc5e56a447b77a3efe490b5d7b2876be3b7205"}`. ([Site](https://checkpoint402.com)) ([OpenAPI](https://api.checkpoint402.com/openapi.json)) ([Registry](https://registry.modelcontextprotocol.io/v0.1/servers?search=com.checkpoint402))
 
 **Last week** (Oct 12—18)
 
