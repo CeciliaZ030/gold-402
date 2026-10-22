@@ -213,6 +213,8 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 - [cryptofeed402](https://cryptofeed402.site/.well-known/x402) — Hyperliquid perp funding (hourly, 8h, annualized), open interest and funding-extreme rank for any listed perp, plus extreme-funding scans, per-asset news sentiment, perp and spot prices, a twice-daily market brief and an agent-readiness audit. Its manifest lists 7 routes, from $0.002 USDC per call on Base, with free sample responses at `/samples` and an Ed25519-signed receipt on every paid response. Example: `GET /perps/BTC`. ([OpenAPI](https://cryptofeed402.site/openapi.json))
 - [KushBitx AgentProof Quick Check](https://kushbitx.com/api/agentproof-quick-check) — Checks that Base reports chain ID 8453 and that the official USDC contract has code, returning PASS or FAIL, for $0.001 USDC per call on Base. Example: `GET /api/agentproof-quick-check`.
 
+- [TapeOut CPU0 Report](https://vm5-openapi-x402.onrender.com/v1/tapeout-cpu0-report) — Returns pinned-block X Layer TapeOut factory, market fee and genesis processor state as JSON for 0.005 native Circle USDC on Base through x402 v2.
+
 ## Finance & FX
 
 - [Mercury402](https://mercury402.uk/.well-known/x402) — Pay-per-call U.S. Treasury and macro data API. FRED indicators, yield curves, GDP data with USDC micropayments on Base.
