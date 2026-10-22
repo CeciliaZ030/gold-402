@@ -209,6 +209,7 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 - [AX1 Token Verdict](https://www.ax1.vc/api/dashboard/q-verdict/resource) — Send a Base token address and get an AI-written verdict with onchain metrics and a shareable card, $0.02 USDC on Base; the operator labels it entertainment, not trading advice. Example: `POST /api/dashboard/q-verdict/resource`.
 - [HyperNatt Terminal](https://hypernatt.com/.well-known/x402) — Liquidation-cluster map and a Li.Fi cross-chain swap quote, $0.001 USDC per call on Base and Solana. Example: `GET /api/m2m/liq-radar`.
 - [cryptofeed402](https://cryptofeed402.site/.well-known/x402) — Hyperliquid perp funding (hourly, 8h, annualized), open interest and funding-extreme rank for any listed perp, plus extreme-funding scans, per-asset news sentiment, perp and spot prices, a twice-daily market brief and an agent-readiness audit. Its manifest lists 7 routes, from $0.002 USDC per call on Base, with free sample responses at `/samples` and an Ed25519-signed receipt on every paid response. Example: `GET /perps/BTC`. ([OpenAPI](https://cryptofeed402.site/openapi.json))
+- [KushBitx AgentProof Quick Check](https://kushbitx.com/api/agentproof-quick-check) — Checks that Base reports chain ID 8453 and that the official USDC contract has code, returning PASS or FAIL, for $0.001 USDC per call on Base. Example: `GET /api/agentproof-quick-check`.
 
 ## Finance & FX
 
