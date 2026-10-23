@@ -404,6 +404,7 @@ x402-enabled APIs and production services. No API keys. No accounts. Pay USDC pe
 - [Softbot Email Check](https://softbot-emailcheck-mainnet.softbot.workers.dev/.well-known/x402) — Checks email address and domain deliverability signals without mailbox probing, $0.002 USDC per call on Base or Solana via x402. `POST /v1/email {"email":"a@example.com"}`
 - [GrokBot Base token check](https://grokbot-dashboard.a3migos.workers.dev/api/base/token-check) — Returns a 0-100 pre-trade risk score for a Base ERC-20 from on-chain reads, $0.01 USDC on Base via x402. ([Discovery](https://grokbot-dashboard.a3migos.workers.dev/.well-known/x402) | [OpenAPI](https://grokbot-dashboard.a3migos.workers.dev/openapi.json))
 - [Fresh402](https://fresh402.kirilllabs.workers.dev/v1/check) — On-demand public-web freshness checks, extraction, deterministic Smart Diff and JSON OpenAPI Contract Diff over REST and remote MCP, with free baseline registration and x402 USDC on Base mainnet ($0.005-$0.020 per paid call); [documentation](https://github.com/kirillradchenko96/fresh402) and [discovery](https://fresh402.kirilllabs.workers.dev/.well-known/x402).
+- [Taste Wall Printables Mini](https://moltspay.com/a/caddy/services/80284581-1470-4a9e-bd87-df29e584b7d6/execute) — Instant download of three printable wall-art PNGs after x402 payment of 16 USDC on Base mainnet. Example: `POST /a/caddy/services/80284581-1470-4a9e-bd87-df29e584b7d6/execute {}`. ([Storefront](https://moltspay.com/a/caddy))
 
 ## Blockchain Bridges
 
