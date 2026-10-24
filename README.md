@@ -152,6 +152,7 @@ We index that world too, including surfaces no English-language directory carrie
 - **[TapeOut CPU0 Report](https://vm5-openapi-x402.onrender.com/v1/tapeout-cpu0-report)** — Returns pinned-block X Layer TapeOut factory, market fee and genesis processor state as JSON for 0.005 native Circle USDC on Base through x402 v2.
 - **[Open Solid](https://opensolid.ai)** — Agent wallet holding USDC on Base and Solana that pays x402 APIs from the agent's balance within a per-payment limit set by its human owner, alongside a US bank account, prepaid cards and payouts through Laso Finance. ([Docs](https://opensolid.ai/docs/paid-apis))
 - **[Lumi Trades Vendor Trust](https://lumitrades.io)** — Free 0-100 trust scores for XRPL-payable x402 sellers, built from unpaid 402-quote probes every 30 minutes and daily paid test-buys verified on the XRP Ledger, plus a per-vendor observation report for $0.02 USDC on Base, $0.02 RLUSD/USDC or 0.015 XRP on the XRP Ledger. Free list: `GET /v1/trust/vendors`; paid report: `GET /v1/trust/vendors/{id}/report`. ([API](https://api.lumitrades.io)) ([Manifest](https://api.lumitrades.io/.well-known/x402)) ([OpenAPI](https://api.lumitrades.io/openapi.json))
+- **[Agent Wallet Index](https://agentwalletindex.fyi)** — Index of agent wallets and payment rails, including x402 wallets, with source-linked facts and a REST API and MCP endpoint.
 
 **Last week** (Oct 12—18)
 
