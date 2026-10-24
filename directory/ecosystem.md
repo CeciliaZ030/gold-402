@@ -36,6 +36,7 @@ Infrastructure, A2A protocols, multi-agent orchestration, and marketplace platfo
 
 - [Coinbase Agentic Wallets](https://www.abhs.in/blog/ai-agents-crypto-wallets-coinbase-x402-brian-armstrong-2026) — Wallet infrastructure purpose-built for autonomous AI agents. 50M+ transactions processed since protocol launch.
 - [ATXP](https://github.com/atxp-dev/atxp) — Agent identity and funding platform. One command gives an agent a USDC wallet, `@atxp.email` inbox, phone number, and 100+ paid tools. x402-compatible, $5 free credit, no KYC. ([Docs](https://docs.atxp.ai))
+- [Open Solid](https://opensolid.ai) — Agent wallet holding USDC on Base and Solana that pays x402 APIs from the agent's balance within a per-payment limit set by its human owner, alongside a US bank account, prepaid cards and payouts through Laso Finance. ([Docs](https://opensolid.ai/docs/paid-apis))
 
 ---
 
