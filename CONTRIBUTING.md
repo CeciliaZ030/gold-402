@@ -88,6 +88,12 @@ Every entry now carries the finding rather than a mark:
 
 That is the whole claim. It is **not** an audit of the provider, a guarantee of uptime, a promise that any given call will succeed, or a delivery test — we have not paid these services and graded what came back.
 
+**When a claim doesn't reproduce.** If your description says something our knock can't confirm — a price, a chain, a feature — we don't quietly rewrite it. We send it back to you once to fix, or it ships exactly as you wrote it with what we saw noted on the pull request. Changing your words is never something we do on our own.
+
+## When a service stops answering
+
+A listing that stops answering our knock isn't deleted. It moves to departures with the date it first failed, and the site shows a running count — "no answer for N days" — from that date. If it comes back, it's restored and the record shows it returned. The dates are the point: they're how a reader can tell a service that's been solid for months from one that came back yesterday.
+
 ## One entry per service (multiple services welcome)
 
 The unit of a listing is the **service**, not the provider.
@@ -134,7 +140,7 @@ The unit of a listing is the **service**, not the provider.
 
 ## Featured
 
-On the 1st of each month the maintainers select one **Featured** pick per shelf, shown at the top of each shelf and indexed in the README, with past slates archived in [FEATURED.md](FEATURED.md). Featured is an editorial pick — a judgment that something is well-built, actively used, and worth a second look, with a preference for excellent work that hasn't already had wide coverage. A shelf with no entry that clears the bar runs empty that month; the empty slot is also a verdict. Featured is the one editorial mark gold-402 carries, and it is always awarded by the maintainers, never requested onto your own entry.
+On the 1st of each month the maintainers select one **Featured** pick per shelf, shown at the top of each shelf and indexed in the README, with past slates archived in [FEATURED.md](FEATURED.md). Featured is an editorial pick — a judgment that something is well-built, actively used, and worth a second look, with a preference for excellent work that hasn't already had wide coverage. A shelf with no entry that clears the bar runs empty that month; the empty slot is also a verdict. Featured is the one editorial mark gold-402 carries, and it is always awarded by the maintainers, never requested onto your own entry, and never sold.
 
 ## Maintenance
 
